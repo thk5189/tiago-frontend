@@ -62,7 +62,7 @@ function Home(props) {
 
         <div className="header-text">
           <h1>Tiago H. Kim</h1>
-          {/* <h2>Software Engineering Student</h2> */}
+          <h2>Software Engineering Student</h2>
         </div>
       </div>
       <div className="infoSection">
