@@ -54,11 +54,11 @@ function Home(props) {
   return (
     <section className="homeSection">
       <div className="header-wrapper">
-        <img
-          src="https://i.imgur.com/t0T4XvR.png"
-          alt="Header image"
-          style={{ width: "100%" }}
-        />
+      <img
+  src="https://i.imgur.com/t0T4XvR.png"
+  style={{ width: "100%" }}
+/>
+
         <div className="header-text">
           <h1>Tiago H. Kim</h1>
           <h2>Software Engineering Student</h2>
