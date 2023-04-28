@@ -1,0 +1,37 @@
+header {
+    background-color: black;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    transform: scale(1.1);
+    color: white; 
+  }
+  
+  /* nav a:nth-child(odd) {
+    border-radius: 50%;
+    padding: 0.5rem 1.5rem;
+    background-color: #f44336;
+  }
+  
+  nav a:nth-child(even) {
+    border-radius: 50%;
+    padding: 0.5rem 1.5rem;
+    background-color: #03a9f4;
+  } */
+  
