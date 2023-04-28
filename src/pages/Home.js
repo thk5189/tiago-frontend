@@ -55,7 +55,7 @@ function Home(props) {
     <section className="homeSection">
       <div className="header-wrapper">
         <img
-          alt="Header image"
+          alt="Headerpic"
           src="https://i.imgur.com/t0T4XvR.png"
           style={{ width: "100%" }}
         />
