@@ -22,13 +22,23 @@
 }
 
 .homeSection .header-text h1 {
-  font-size: 1.8rem;
+  font-size: 7vw;
   margin: 0;
 }
 
 .homeSection .header-text h2 {
-  font-size: 0.9rem;
+  font-size: 3vw;
   font-weight: normal;
   margin: 0;
   margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .homeSection .header-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .homeSection .header-text h2 {
+    font-size: 1.2rem;
+  }
 }
