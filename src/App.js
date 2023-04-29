@@ -7,8 +7,10 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 
 function App() {
+
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
-  const URL = "http://localhost:4000/";
+  // const URL = "http://localhost:4000/";
+  const URL = "https://tiago-backend.herokuapp.com/";
 
   return (
     <div className="App">
@@ -24,3 +26,6 @@ function App() {
 }
 
 export default App;
+//styled components for global use ex: gores homes app
+//https://michalsnik.github.io/aos/
+//https://github.com/michalsnik/aos
