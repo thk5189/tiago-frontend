@@ -50,21 +50,25 @@ import React from "react";
 import '../Home.css';
 import { Link } from "react-router-dom";
 
-
-
 function Home(props) {
   return (
     <section className="homeSection">
       <div className="header-wrapper">
         <img
+          alt="Headerpic"
           src="https://i.imgur.com/t0T4XvR.png"
-          alt="Header image"
           style={{ width: "100%" }}
         />
+
         <div className="header-text">
-          <h1>Tiago H. Kim</h1>
+  <h1>
+    Tiago H. Kim
+    <span>
           <h2>Software Engineering Student</h2>
+    </span>
+  </h1>
         </div>
+
       </div>
       <div className="infoSection">
         <p>
