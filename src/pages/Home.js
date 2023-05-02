@@ -1,6 +1,5 @@
 import React from "react";
 // import "../Home.css";
-import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -22,8 +21,8 @@ function Home() {
           exciting challenges.
         </p>
         <div className="btn-box">
-          <a href="#">Hire Me</a>
-          <a href="#">CV</a>
+          <a>Hire Me</a>
+          <a>CV</a>
         </div>
       </div>
       <div className="image-container">
