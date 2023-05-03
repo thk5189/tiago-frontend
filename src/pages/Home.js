@@ -16,7 +16,7 @@ function Home() {
         </p>
         <div className="btn-box">
           <a href="hireme">Hire Me</a>
-          <a href="">CV</a>
+          <a href="/">CV</a>
         </div>
       </div>
       <div className="image-container">
