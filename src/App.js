@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Hire from "./pages/Hire";
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/projects" element={<Projects URL={URL} />} />
         <Route exact path="/about" element={<About URL={URL} />} />
+        <Route exact path="/hireme" element={<Hire />} />
       </Routes>
       <Footer />
     </div>
@@ -26,6 +28,8 @@ function App() {
 }
 
 export default App;
+
+//notes for more styling 
 //styled components for global use ex: gores homes app
 //https://michalsnik.github.io/aos/
 //https://github.com/michalsnik/aos

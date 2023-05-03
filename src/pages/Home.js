@@ -15,8 +15,8 @@ function Home() {
           I have a strong passion for designing and developing modern, efficient web applications. With experience in both frontend and backend technologies, I am constantly seeking to expand my skills and take on new, exciting challenges.
         </p>
         <div className="btn-box">
-          <a href="/hire-me">Hire Me</a>
-          <a href="/cv">CV</a>
+          <a href="hireme">Hire Me</a>
+          <a href="">CV</a>
         </div>
       </div>
       <div className="image-container">
