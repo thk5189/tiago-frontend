@@ -5,7 +5,7 @@ function Header(props) {
   return (
     <header className="header">
       <a href="/" className="logo">
-        Tiago.
+        Porfolio.
       </a>
       <nav className="navbar">
         <a href="/" className="active">
