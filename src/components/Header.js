@@ -1,26 +1,47 @@
 // import { Link } from "react-router-dom";
-// import './Header.css';
+
+
+// function Header(props) {
+//   return (
+//     <header className="header">
+//       <a href="/" className="logo">
+//         Porfolio.
+//       </a>
+//       <nav className="navbar">
+//         <a href="/" className="active">
+//           Home
+//         </a>
+//         <a href="/">About</a>
+//         <a href="/">Projects</a>
+//         <a href="/">Contact</a>
+//       </nav>
+//     </header>
+//   );
+// }
+
+// export default Header;
+
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
     <header className="header">
-      <a href="/" className="logo">
+      <Link to="/" className="logo">
         Porfolio.
-      </a>
+      </Link>
       <nav className="navbar">
-        <a href="/" className="active">
+        <Link to="/" className="active">
           Home
-        </a>
-        <a href="/">About</a>
-        <a href="/">Projects</a>
-        <a href="/">Contact</a>
+        </Link>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
     </header>
   );
 }
 
 export default Header;
-
 
 
 
