@@ -19,7 +19,7 @@ function Home() {
           <a href="/">CV</a>
         </div>
       </div>
-      <div className="image-container">
+      <div className="image-container" style={{ marginTop: "80px" }}>
         <img src="https://i.imgur.com/DBaeCY1.png" alt="Triangular Bird Logo" />
       </div>
     </section>

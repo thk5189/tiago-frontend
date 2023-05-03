@@ -1,3 +1,19 @@
+import React from "react";
+import "../Hire.css";
+
+function Hire() {
+  return (
+    <section className="hire">
+    
+      <p>If you are interested in hiring me, please get in touch:</p>
+      <p>Call me at <a href="tel:2133446407">213-344-6407</a></p>
+      <p>Email me at <a href="mailto:kt19go@gmail.com">kt19go@gmail.com</a></p>
+    </section>
+  );
+}
+
+export default Hire;
+
 // import React from "react";
 
 // function Hire() {
