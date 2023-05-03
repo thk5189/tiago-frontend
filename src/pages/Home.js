@@ -54,28 +54,35 @@ import React from "react";
 
 function Home(props) {
   return (
-<section class="home">
-<div class="home-content">
-    <h1><span class="thin">Hello. I am</span> <span class="bold">Tiago Kim</span>.</h1>
+    <section className="home">
+      <div className="home-content">
+        <h1>
+          <span className="thin">Hello. I am</span>{" "}
+          <span className="bold">Tiago Kim</span>.
+        </h1>
 
-  <h3><span class="thin">Software Engineer</span></h3>
-  <p>  I am an enthusiastic software engineer with a strong passion for creating
-    modern and efficient web applications. I have experience in both
-    frontend and backend technologies, and I'm always eager to learn new
-    skills and take on exciting challenges.</p>
-  <div class="btn-box">
-    <a href="#">Hire Me</a>
-    <a href="#">CV</a>
-  </div>
-</div>
-<div class="image-container">
-  {/* <img src="./triangularbird-removebg-preview.png" 
-  alt="Sample image"> */}
-     <img
-          alt="Sample image"
-          src="https://i.imgur.com/DBaeCY1.png"/>
-</div>
-</section>
-)
+        <h3>
+          <span className="thin">Software Engineer</span>
+        </h3>
+        <p>
+          I am an enthusiastic software engineer with a strong passion for
+          creating modern and efficient web applications. I have experience in
+          both frontend and backend technologies, and I'm always eager to learn
+          new skills and take on exciting challenges.
+        </p>
+        <div className="btn-box">
+          <a href="/hire-me">Hire Me</a>
+          <a href="/cv">CV</a>
+        </div>
+      </div>
+      <div className="image-container">
+        <img
+          src="https://i.imgur.com/DBaeCY1.png"
+          alt="Triangular Bird Logo"
+        />
+      </div>
+    </section>
+  );
 }
+
 export default Home;

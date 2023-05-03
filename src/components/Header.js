@@ -3,24 +3,26 @@
 
 function Header(props) {
   return (
-    // <header>
-    //   <nav>
-    //     <Link to="/">HOME</Link>
-    //     <Link to="/about">ABOUT</Link>
-    //     <Link to="/projects">PROJECTS</Link>
-    //   </nav>
-
-    // </header>
-      <header class="header">
-      <a href="" class="logo">Tiago.</a>
-      <nav class="navbar">
-          <a href="" class="active">Home</a>
-          <a href="">About</a>
-          <a href="">Projects</a>
-          <a href="">Contact</a>
+    <header className="header">
+      <a href="/" className="logo">
+        Tiago.
+      </a>
+      <nav className="navbar">
+        <a href="/" className="active">
+          Home
+        </a>
+        <a href="/">About</a>
+        <a href="/">Projects</a>
+        <a href="/">Contact</a>
       </nav>
-  </header>
+    </header>
   );
 }
 
 export default Header;
+
+
+
+
+
+
