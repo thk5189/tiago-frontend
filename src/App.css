@@ -189,7 +189,8 @@ body {
 
   .home-content h3 {
     font-size: 24px;
-    color:rgba(61, 26, 2, 0.818);
+    /* color:rgba(61, 26, 2, 0.818); */
+    color: black
   }
   
   .home-content p {
