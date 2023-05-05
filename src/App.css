@@ -189,13 +189,13 @@ body {
 
   .home-content h3 {
     font-size: 24px;
-    /* color:rgba(61, 26, 2, 0.818); */
-    color: black
+    color:rgba(61, 26, 2, 0.818);
   }
   
   .home-content p {
     font-size: 13px;
     margin: 20px 0 40px;
+    color: black;
   }
   /* --------------------------------------------------------btn */
   .home-content .btn-box {
