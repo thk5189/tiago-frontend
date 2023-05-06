@@ -1,49 +1,4 @@
-/* .homeSection .header-wrapper {
-  position: relative;
-}
-
-.homeSection .header-wrapper::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-}
-
-.homeSection .header-text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 2rem;
-  color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-.homeSection .header-text h1 {
-  font-size: 7vw;
-  margin: 0;
-}
-
-.homeSection .header-text h2 {
-  font-size: 3vw;
-  font-weight: normal;
-  margin: 0;
-  margin-top: 1rem;
-}
-
-@media (min-width: 768px) {
-  .homeSection .header-text h1 {
-    font-size: 1.7rem;
-  }
-
-  .homeSection .header-text h2 {
-    font-size: 0.7rem;
-  }
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 *{
     margin: 0;
@@ -63,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
     background: transparent;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -92,7 +47,15 @@ body {
     color: pink
 
 }
+
 /* ---------------------------------------------------------home */
+.home {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
 .home{
     height: 40vh;
     display: flex;
@@ -103,19 +66,11 @@ body {
 
 .home-content {
     background: white;
-    max-width: 550px;
+    max-width: 700px;
     position: relative;
     z-index: 1;
 }
 
-.image-container {
-    width: 30%;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-  }
-  
   .home-content h1 .bold {
     font-weight: bold;
   }
@@ -127,14 +82,14 @@ body {
   }
   
   .image-container img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
     filter: brightness(100%);
     animation-name: effect;
     animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    margin-left: -150px
+    /* margin-left: -150px */
   }
   
   @media only screen and (max-width: 768px) {
@@ -154,7 +109,7 @@ body {
       width: 100%;
       position: static;
       margin-top: -100px;
-      display: none; /* Hide bird image for screen sizes smaller than 768px width */
+      display: none; 
     }
     
     .image-container img {
@@ -211,8 +166,8 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: rgb(240, 240, 234);
-    border: 2px solid rgb(240, 240, 234);
+    background: rgb(216, 214, 201);
+    border: 2px solid rgb(216, 214, 201);
     border-radius: 9px;
     font-size: 13px;
     text-decoration: none;
@@ -223,3 +178,61 @@ body {
   .btn-box a:nth-child(2) {
     background: transparent;
   }
+
+.btn-box a:hover {
+  background-color: transparent;
+}
+
+/* -------------------- Dark mode -------------------- */
+
+/* Set the background and font colors for the dark mode */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+
+/* Invert the logo color for better visibility in dark mode */
+.dark-mode .logo {
+  color: #1a653d
+}
+
+/* Invert the navbar link colors for better visibility in dark mode */
+.dark-mode .navbar a {
+  color: #e6e6e6;
+}
+
+/* Invert the navbar link hover colors for better visibility in dark mode */
+.dark-mode .navbar a:hover {
+  color: #ffc0cb;
+}
+
+/* Invert the home content colors for better visibility in dark mode */
+.dark-mode .home-content {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+
+/* Invert the home content header colors for better visibility in dark mode */
+.dark-mode .home-content h1 {
+  color: #e6efec;
+}
+
+.dark-mode .home-content h3 {
+  color: #d8c1a9;
+}
+
+/* Invert the home content button colors for better visibility in dark mode */
+.dark-mode .btn-box a {
+  background-color: #4b4d4c;
+  border-color: #4b4d4c;
+  color: #a8aab2;
+}
+
+.btn-box a:nth-child(2) {
+  background: transparent;
+}
+
+.dark-mode .btn-box a:hover {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
