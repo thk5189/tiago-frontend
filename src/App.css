@@ -34,7 +34,9 @@ body {
     font-weight: 600;
     color: #1a653d
 }
-
+.navbar {
+margin-left: 780px;
+}
 .navbar a {
     font-size: 13px;
     color: black;
@@ -182,6 +184,7 @@ body {
 .btn-box a:hover {
   background-color: transparent;
 }
+
 
 /* -------------------- Dark mode -------------------- */
 

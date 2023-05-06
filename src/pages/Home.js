@@ -16,7 +16,8 @@ function Home() {
         </p>
         <div className="btn-box">
           <a href="hireme">Hire Me</a>
-          <a href="/">CV</a>
+          <a href="/">Resume</a>
+          
         </div>
       </div>
       <div className="image-container" style={{ marginTop: "80px" }}>
