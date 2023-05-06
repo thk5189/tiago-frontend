@@ -45,19 +45,17 @@
   background-color: transparent;
   color: black;
   padding: 30px;
-  text-align: center;
+    text-align: center;
   font-size: 9.5px;
 }
 
 .social-media-links {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+
 }
 
-.social-media-links a {
-  margin-right: 20px;
-}
+
 
 .social-media-links img {
   width: 30px;

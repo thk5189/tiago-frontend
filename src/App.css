@@ -18,8 +18,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 5%;
-    background: transparent;
+    padding: 20px 8%;
+    background: white;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-between;
@@ -58,13 +58,13 @@ margin-left: 780px;
   align-items: center;
   padding: 0 10%;
 }
-.home{
+/* .home{
     height: 40vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
-    min-height: calc(100vh - 100px);
-}
+    min-height: calc(70vh - 80px);
+} */
 
 .home-content {
     background: white;
@@ -243,6 +243,12 @@ margin-left: 780px;
 .darkmode .footer-section footer p {
   color: white;
 }
-.dark-mode .footer-section p {
-  color: white;
+
+.dark-mode .header {
+  color: #1a1a1a;
+}
+
+.dark-mode .header {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
 }
