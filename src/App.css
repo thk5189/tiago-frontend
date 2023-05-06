@@ -43,7 +43,7 @@
   }
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@140;300;600&display=swap');
 
 *{
     margin: 0;
@@ -190,6 +190,8 @@ body {
   .home-content h3 {
     font-size: 24px;
     color:rgba(61, 26, 2, 0.818);
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
   }
   
   .home-content p {
