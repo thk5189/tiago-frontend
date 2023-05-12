@@ -9,7 +9,7 @@ function Home() {
           <span className="bold">Tiago Kim</span>.
         </h1>
         <h3>
-          <span className="thin">A Software Engineer based in Los Angeles</span>
+          <span className="thin">A Software Engineer based in LA</span>
         </h3>
         <p>
           I have a strong passion for designing and developing modern, efficient web applications. With experience in both frontend and backend technologies, I am constantly seeking to expand my skills and take on new, exciting challenges.
